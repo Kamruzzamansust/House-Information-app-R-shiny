@@ -46,8 +46,7 @@ server <- function(input, output, session) {
     }
     
     print(df_filtered)
-    # Filter by other criteria
-    # You can add more filter conditions here based on other inputs
+    
     
     return(df_filtered)
   })
@@ -70,7 +69,7 @@ server <- function(input, output, session) {
                  ~Longtitude, ~Lattitude,
                  popup = ~paste("Suburb:", Suburb, "<br>",
                                 "Price:", Price))
-    # Adjust the popup information as per your requirement
+    
   })
 }
 
