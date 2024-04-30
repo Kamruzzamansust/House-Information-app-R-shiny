@@ -1,0 +1,44 @@
+df <- read.csv("D:\\R shiny\\new_r_shiny_learning\\AUS_HOUSE\\melb_data.csv")
+print(df)
+
+colnames(df)
+
+
+
+
+df[,c(1,2,3,4,5,6,7,8,9,10,11)]
+
+
+
+
+unique(df$Type)
+
+circumference <- function(r){
+  unique(df[[r]])
+}
+print(circumference("Regionname"))
+
+table(df$Suburb[df$Regionname == "Northern Metropolitan"])
+
+df$Suburb[df$Regionname == "Northern Metropolitan"]
+
+
+barplot(table(df$Suburb[df$Regionname == "Northern Metropolitan"]), main = "Suburb Counts in Northern Metropolitan Region", xlab = "Suburb", ylab = "Count", col = "skyblue")
+
+unique(df$Suburb[df$Regionname == "Northern Metropolitan"])
+
+
+
+
+mean_landsize <- mean(df$Landsize, na.rm = TRUE)
+
+# Replace missing values with mean
+df$Landsize[is.na(df$Landsize)] <- mean_landsize
+print(df)
+
+
+
+
+
+print(df[df$Distance == 2, ])
+

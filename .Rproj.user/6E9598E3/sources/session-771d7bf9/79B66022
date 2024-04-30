@@ -1,0 +1,27 @@
+{
+    "id": "79B66022",
+    "path": "D:/R shiny/new_r_shiny_learning/ui.R",
+    "project_path": "ui.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1713155717111.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "36,24",
+        "scrollLine": "31"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1713363212,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1713363212826,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,18 @@
+library(shiny)
+
+ui <- fluidPage(
+  titlePanel("actionButton Example"),
+  actionButton(inputId = "action",label = "clickme!",class = "btn-primary btn-lg")
+)
+
+
+
+server <- function(input,output,seesion){
+  observeEvent(input$action, {
+    # This block of code will execute when the action button is clicked
+    # You can place any reactive expressions or other logic here
+    # For this example, let's print a message to the console
+    print("Button clicked!")
+  })
+}
+
